@@ -62,7 +62,7 @@ with open(file_to_load) as financial_data:
     output = (
           "Financial Analysis\n"
           "--------------------\n"
-          f"Total months = {total_months}\n"
+          f"Total Months = {total_months}\n"
           f"Total : ${total_net}\n"
           f"Average Change : ${average_change}\n"
           f"Greatest Increase in Profits : {greatest_increase_month} (${greatest_increase})\n"
