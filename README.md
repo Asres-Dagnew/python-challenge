@@ -25,15 +25,9 @@ The analysis has the following parts:
 2. Resources: This is the input CSV file containing the budget data.
 3. Main.py: This is the main python script used to perform the analysis.
 # Budget Data Analysis Result
+The analysis results the following output: ![GitHub Logo](/images/logo.png)
 
-The analysis results the following output:
 
-Financial Analysis
-1. Total Months = 86
-2. Total: $22564198
-3. Average Change: $-8311.11
-4. Greatest Increase in Profits: Aug-16 ($1862002)
-5. Greatest Decrease in Profits: Feb-14 ($-1825558)
 # Election Data Analysis
 This part performs an election data analysis using a CSV file of the voting data. The script processes the voting data to calculate the total number of votes cast, the list of candidates who received votes, the percentage of votes each candidate won, and the winner of the election based on the popular votes.
 The analysis has the following parts:
