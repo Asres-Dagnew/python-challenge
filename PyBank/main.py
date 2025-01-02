@@ -10,13 +10,13 @@ total_months = 0 #Initial variable to count the total number of motnhs
 total_net = 0 #Initial variable to sum the total net amount
 
 #Add more variables to track other necessary financial data
-change = 0
-greatest_increase = 0
-greatest_decrease = 0
-greatest_increase_month = ""
-greatest_decrease_month = ""
-changes = []
-previous_row = None
+change = 0 #Initial variable to track change
+greatest_increase = 0 #initial variable to track the greatest increase in profits
+greatest_decrease = 0 #initial variable to track the greatest decrease in profits
+greatest_increase_month = "" #initial variable to store the month of greatest increase
+greatest_decrease_month = "" #initial variable to store the month of greatest decrease
+changes = [] #initialize a lit to store the changes
+previous_row = None #initial variable to store the previous row's net amount
 
 #Open and read the budget data file
 with open(file_to_load) as financial_data:
@@ -28,13 +28,13 @@ with open(file_to_load) as financial_data:
      #Extract the first row to avoid appending to net change_list
     first_row = next(reader)
 
-    total_months+=1
+    total_months+=1 
     total_net+=int(first_row[1])
     previous_row =int(first_row[1])
      #Loop through the remaining rows in the CSV file and track the total, net change,greatest increase in profits,
      # greatest decrease in losses and average net changes across the months.
     for row in reader:
-          total_months+=1
+          total_months+=1 
           total_net+=int(row[1])
           if previous_row is not None:
             #Track the net change
