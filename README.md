@@ -23,9 +23,10 @@ This section performs analysis of the budget data using a CSV file. The script p
 The analysis has the following parts:
 1. Analysis: This is the output text file containing the results of the budget data analysis.
 2. Resources: This is the input CSV file containing the budget data.
-3. Main.py: This is the main python script used to perform the analysis.
+3. main.py: This is the main python script used to perform the analysis.
 # Budget Data Analysis Result
 The analysis results the following output: 
+
 Financial Analysis
 
 - Total Months = 86
@@ -40,7 +41,7 @@ This part performs an election data analysis using a CSV file of the voting data
 The analysis has the following parts:
 1. Analysis: This is the output text file containing the results of the election data analysis.
 2. Resources: This part contains the input CSV file containing the election data.
-3. Main.py: This is the main python script used to perform the analysis.
+3. main.py: This is the main python script used to perform the analysis.
 
 # Election Data Analysis Result
 The analysis results the following output:
