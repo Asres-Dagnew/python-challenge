@@ -26,7 +26,12 @@ The analysis has the following parts:
 3. Main.py: This is the main python script used to perform the analysis.
 # Budget Data Analysis Result
 The analysis results the following output: 
-![My Image](https://example.com/image.jpg)
+python-challenge/PyPoll/analysis/election_analysis.txt at main · Asres-Dagnew/python-challenge
+
+
+
+
+
 
 
 # Election Data Analysis
