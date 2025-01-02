@@ -3,20 +3,20 @@ Python-challenge has two parts: PyBank and PyPoll.
 ## PyBank Instructions
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 Your task is to create a Python script that analyzes the records to calculate each of the following values:
-- Bullet Point 1 The total number of months included in the dataset
-- Bullet Point 2 The net total amount of "Profit/Losses" over the entire period
-- Bullet Point 3 The changes in "Profit/Losses" over the entire period, and then the average of those changes
-- Bullet Point 4 The greatest increase in profits (date and amount) over the entire period
-- Bullet Point 5 The greatest decrease in profits (date and amount) over the entire period
+- The total number of months included in the dataset
+- The net total amount of "Profit/Losses" over the entire period
+- The changes in "Profit/Losses" over the entire period, and then the average of those changes
+- The greatest increase in profits (date and amount) over the entire period
+- The greatest decrease in profits (date and amount) over the entire period
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 # PyPoll Instructions
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
 You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
-- Bullet Point 1 The total number of votes cast
-- Bullet Point 2 A complete list of candidates who received votes
-- Bullet Point 3 The percentage of votes each candidate won
-- Bullet Point 1 The total number of votes each candidate won
-- Bullet Point 1 The winner of the election based on popular vote
+- The total number of votes cast
+- A complete list of candidates who received votes
+- The percentage of votes each candidate won
+- The total number of votes each candidate won
+- The winner of the election based on popular vote
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 # Budget Data Analysis
 This section performs analysis of the budget data using a CSV file. The script processes the budget data to calculate the total number of months, the total net amount of profits/loss, the average net changes over the months and the months with the greatest increase and decrease in profits.
