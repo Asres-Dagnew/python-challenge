@@ -25,7 +25,7 @@ The analysis has the following parts:
 2. Resources: This is the input CSV file containing the budget data.
 3. main.py: This is the main python script used to perform the analysis.
 # Budget Data Analysis Result
-The analysis results the following output: 
+The analysis result looks like the following output: 
 
 Financial Analysis
 
@@ -44,7 +44,7 @@ The analysis has the following parts:
 3. main.py: This is the main python script used to perform the analysis.
 
 # Election Data Analysis Result
-The analysis results the following output:
+The analysis result looks like the following output:
 
 
 Election Results
